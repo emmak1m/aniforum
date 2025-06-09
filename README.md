@@ -41,6 +41,25 @@ This project is a personal endeavor, born out of a passion for anime and a desir
 - Share recommendations and fan content
 
 ## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo CLI
+- MongoDB (if using local database)
+
+### Environment Setup
+1. Clone the repository
+2. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+3. Update the `.env` file with your own values:
+   - Set up your MongoDB connection string
+   - Add your OpenAI API key (if using)
+   - Generate a secure JWT secret
+
+### Installation
 To run the app locally:
 ```bash
 npm install
